@@ -1,0 +1,23 @@
+{
+  "name": "secret-santa-smart-contract",
+  "version": "1.0.0",
+  "description": "Was created just for lulz and deployed on address [0x12997eFbec1EFE36328cf60129606DcA6A414854](https://rinkeby.etherscan.io/address/0x12997efbec1efe36328cf60129606dca6a414854) in [Rinkeby](https://www.rinkeby.io/) testnet.",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+	"postinstall": "truffle install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordotU/secret-santa-smart-contract.git"
+  },
+  "author": "LordotU <LevshinO@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LordotU/secret-santa-smart-contract/issues"
+  },
+  "homepage": "https://github.com/LordotU/secret-santa-smart-contract#readme"
+}

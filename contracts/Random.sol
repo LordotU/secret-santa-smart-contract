@@ -1,3 +1,5 @@
+pragma solidity ^0.4.13;
+
 library Random {
 	
 	function gen(

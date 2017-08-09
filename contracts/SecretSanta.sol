@@ -1,13 +1,12 @@
 pragma solidity ^0.4.13;
 
-import "github.com/oraclize/ethereum-api/oraclizeAPI.sol";
+import "oraclize/contracts/usingOraclize.sol";
 
-import "./Ownable.sol";
 import "./Destructible.sol";
 
-import "./libraries/Random.sol";
+import "./Random.sol";
 
-contract SecretSanta is Ownable, Destructible, usingOraclize {
+contract SecretSanta is Destructible, usingOraclize {
 	
 	uint public playTimeStart;
 	uint public playTimeFinish;
