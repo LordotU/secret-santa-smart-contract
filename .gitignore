@@ -11,8 +11,5 @@ node_modules
 installed_contracts
 
 # Generated files
-config/development/contracts.json
-config/development/*.sol.js
-config/test/contracts.json
 build
 dist
